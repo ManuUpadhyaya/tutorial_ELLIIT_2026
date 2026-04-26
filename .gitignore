@@ -1,0 +1,14 @@
+# Keep the public repo to the shareable artifacts only.
+*
+
+# Root-level generated deck.
+!/.gitignore
+!/README.md
+!/slides.pdf
+
+# Public Colab notebooks.
+!/notebooks/
+!/notebooks/proximal_gradient_method.ipynb
+!/notebooks/iteration_independent_lyapunov_example_1.ipynb
+!/notebooks/iteration_independent_lyapunov_example_2.ipynb
+!/notebooks/iteration_dependent_lyapunov_example.ipynb
